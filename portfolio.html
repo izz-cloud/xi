@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Alex Designer</title>
+    <meta name="description" content="View Alex Designer's portfolio of product design projects, case studies, and creative work.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">Alex Designer</a>
+                </div>
+                
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-actions">
+                    <a href="contact.html" class="btn btn-primary">Hire Me</a>
+                    <button class="menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu-overlay">
+            <div class="mobile-menu">
+                <button class="menu-close" aria-label="Close menu">&times;</button>
+                <nav class="mobile-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary">Hire Me</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Portfolio</h1>
+                <p>A collection of my recent projects and case studies</p>
+            </div>
+        </section>
+
+        <!-- Portfolio Grid -->
+        <section class="portfolio-section">
+            <div class="container">
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                </div>
+                
+                <div class="portfolio-grid">
+                    <article class="portfolio-item" data-category="mobile web">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&fit=crop" alt="E-commerce Mobile App">
+                            <div class="portfolio-overlay">
+                                <h3>E-commerce Mobile App</h3>
+                                <p>Lead Designer</p>
+                                <div class="portfolio-tags">
+                                    <span>Mobile</span>
+                                    <span>E-commerce</span>
+                                    <span>UX</span>
+                                </div>
+                                <a href="project-1.html" class="portfolio-link">View Case Study</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&fit=crop" alt="SaaS Dashboard">
+                            <div class="portfolio-overlay">
+                                <h3>SaaS Analytics Dashboard</h3>
+                                <p>Product Designer</p>
+                                <div class="portfolio-tags">
+                                    <span>Web</span>
+                                    <span>Dashboard</span>
+                                    <span>SaaS</span>
+                                </div>
+                                <a href="project-2.html" class="portfolio-link">View Case Study</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="portfolio-item" data-category="mobile">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&fit=crop" alt="Fintech App">
+                            <div class="portfolio-overlay">
+                                <h3>Personal Finance App</h3>
+                                <p>UX Designer</p>
+                                <div class="portfolio-tags">
+                                    <span>Mobile</span>
+                                    <span>Fintech</span>
+                                    <span>UI</span>
+                                </div>
+                                <a href="project-3.html" class="portfolio-link">View Case Study</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="portfolio-item" data-category="branding web">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&fit=crop" alt="Healthcare Platform">
+                            <div class="portfolio-overlay">
+                                <h3>Healthcare Platform</h3>
+                                <p>Lead Designer</p>
+                                <div class="portfolio-tags">
+                                    <span>Web</span>
+                                    <span>Healthcare</span>
+                                    <span>Branding</span>
+                                </div>
+                                <a href="project-4.html" class="portfolio-link">View Case Study</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="portfolio-item" data-category="mobile">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/3184639/pexels-photo-3184639.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&fit=crop" alt="Food Delivery App">
+                            <div class="portfolio-overlay">
+                                <h3>Food Delivery App</h3>
+                                <p>Product Designer</p>
+                                <div class="portfolio-tags">
+                                    <span>Mobile</span>
+                                    <span>Food</span>
+                                    <span>Delivery</span>
+                                </div>
+                                <a href="project-5.html" class="portfolio-link">View Case Study</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="portfolio-item" data-category="web branding">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&fit=crop" alt="Learning Platform">
+                            <div class="portfolio-overlay">
+                                <h3>Online Learning Platform</h3>
+                                <p>UX/UI Designer</p>
+                                <div class="portfolio-tags">
+                                    <span>Web</span>
+                                    <span>Education</span>
+                                    <span>Branding</span>
+                                </div>
+                                <a href="project-6.html" class="portfolio-link">View Case Study</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Like What You See?</h2>
+                    <p>Let's discuss how I can help bring your product vision to life with thoughtful, user-centered design.</p>
+                    <div class="cta-actions">
+                        <a href="contact.html" class="btn btn-primary">Start a Project</a>
+                        <a href="services.html" class="btn btn-secondary">View Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="logo">Alex Designer</div>
+                    <p>Product Designer crafting meaningful digital experiences</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="services.html#product-design">Product Design</a></li>
+                            <li><a href="services.html#ux-research">UX Research</a></li>
+                            <li><a href="services.html#prototyping">Prototyping</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <div class="social-links">
+                            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="#" aria-label="Dribbble">Dribbble</a>
+                            <a href="#" aria-label="Behance">Behance</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Alex Designer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Alex Designer</title>
+    <meta name="description" content="Get in touch with Alex Designer for your product design project. Available for freelance work and design consultations.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">Alex Designer</a>
+                </div>
+                
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-actions">
+                    <a href="contact.html" class="btn btn-primary">Hire Me</a>
+                    <button class="menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu-overlay">
+            <div class="mobile-menu">
+                <button class="menu-close" aria-label="Close menu">&times;</button>
+                <nav class="mobile-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary">Hire Me</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Let's Work Together</h1>
+                <p>Ready to bring your product vision to life? I'd love to hear about your project.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <h2>Get In Touch</h2>
+                            <p>I'm currently available for new projects and would love to discuss how I can help bring your product vision to life.</p>
+                            
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <div class="contact-icon">📧</div>
+                                    <div class="contact-text">
+                                        <h4>Email</h4>
+                                        <a href="mailto:hello@alexdesigner.com">hello@alexdesigner.com</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-item">
+                                    <div class="contact-icon">📍</div>
+                                    <div class="contact-text">
+                                        <h4>Location</h4>
+                                        <span>San Francisco, CA</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-item">
+                                    <div class="contact-icon">⏰</div>
+                                    <div class="contact-text">
+                                        <h4>Response Time</h4>
+                                        <span>Within 24 hours</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="social-links-contact">
+                                <h4>Connect With Me</h4>
+                                <div class="social-icons">
+                                    <a href="#" class="social-link" aria-label="LinkedIn">
+                                        <span>LinkedIn</span>
+                                    </a>
+                                    <a href="#" class="social-link" aria-label="Dribbble">
+                                        <span>Dribbble</span>
+                                    </a>
+                                    <a href="#" class="social-link" aria-label="Behance">
+                                        <span>Behance</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="availability-card">
+                            <div class="status-indicator">
+                                <div class="status-dot available"></div>
+                                <span>Available for new projects</span>
+                            </div>
+                            <p>I typically take on 2-3 projects at a time to ensure quality and attention to detail.</p>
+                            <div class="rate">Starting at $75/hour</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-header">
+                                <h2>Start a Project</h2>
+                                <p>Tell me about your project and let's discuss how I can help.</p>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company">Company/Organization</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="budget">Project Budget</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Select budget range</option>
+                                    <option value="under-5k">Under $5,000</option>
+                                    <option value="5k-10k">$5,000 - $10,000</option>
+                                    <option value="10k-25k">$10,000 - $25,000</option>
+                                    <option value="25k-50k">$25,000 - $50,000</option>
+                                    <option value="over-50k">Over $50,000</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="services">Services Needed</label>
+                                <div class="checkbox-group">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="services[]" value="product-design">
+                                        <span class="checkbox-custom"></span>
+                                        Product Design
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="services[]" value="ux-research">
+                                        <span class="checkbox-custom"></span>
+                                        UX Research
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="services[]" value="prototyping">
+                                        <span class="checkbox-custom"></span>
+                                        Prototyping
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="services[]" value="design-system">
+                                        <span class="checkbox-custom"></span>
+                                        Design System
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="timeline">Project Timeline</label>
+                                <select id="timeline" name="timeline">
+                                    <option value="">Select timeline</option>
+                                    <option value="asap">ASAP</option>
+                                    <option value="1-month">Within 1 month</option>
+                                    <option value="3-months">Within 3 months</option>
+                                    <option value="6-months">Within 6 months</option>
+                                    <option value="flexible">Flexible</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Project Details *</label>
+                                <textarea id="message" name="message" rows="6" placeholder="Tell me about your project, goals, and any specific requirements..." required></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                        </form>
+                        
+                        <!-- Success Message -->
+                        <div class="success-message" id="successMessage">
+                            <div class="success-content">
+                                <h3>Message Sent Successfully! 🎉</h3>
+                                <p>Thank you for reaching out! I'll review your project details and get back to you within 24 hours.</p>
+                                <button class="btn btn-secondary" onclick="resetForm()">Send Another Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Common questions about working together</p>
+                </div>
+                
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>What's your typical project timeline?</h3>
+                        <p>Project timelines vary based on scope, but most projects range from 2-8 weeks. I'll provide a detailed timeline during our initial consultation.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Do you work with small startups?</h3>
+                        <p>Absolutely! I love working with startups and understand the unique challenges of early-stage companies. I offer flexible packages to fit different budgets.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>What's included in your design process?</h3>
+                        <p>My process includes research, strategy, wireframing, visual design, prototyping, and developer handoff. I'll customize the approach based on your needs.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Do you provide ongoing support?</h3>
+                        <p>Yes! I offer post-launch support and can help with design system maintenance, user testing, and iterative improvements.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>How do you handle revisions?</h3>
+                        <p>I include multiple revision rounds in my packages and work collaboratively throughout the process to ensure the final design meets your expectations.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Can you work with remote teams?</h3>
+                        <p>Definitely! I'm experienced working with distributed teams and use tools like Figma, Slack, and Zoom to collaborate effectively.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="logo">Alex Designer</div>
+                    <p>Product Designer crafting meaningful digital experiences</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="services.html#product-design">Product Design</a></li>
+                            <li><a href="services.html#ux-research">UX Research</a></li>
+                            <li><a href="services.html#prototyping">Prototyping</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <div class="social-links">
+                            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="#" aria-label="Dribbble">Dribbble</a>
+                            <a href="#" aria-label="Behance">Behance</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Alex Designer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
